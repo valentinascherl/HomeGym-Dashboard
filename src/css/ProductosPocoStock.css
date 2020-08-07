@@ -1,0 +1,30 @@
+.container-prod-poco-stock{
+    border: 1px rgba(5, 100, 5, 0.795) solid;
+    background-color: lightgreen;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000050;
+    margin-bottom: 40px;
+
+}
+.titulo-prod-poco-stock{
+    background-color: rgba(5, 100, 5, 0.795);
+    color: white;
+}
+.titulo-prod-poco-stock h2{
+    font-size: 20px;
+}
+div ul li {
+    list-style-type: NONE;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    line-height: 40px;
+    display: flex;
+}
+div ul li h4 {
+    border: white 2px outset;
+    background-color:rgba(47, 255, 82, 0.678);
+    border-radius: 10px;
+    padding: 3px;
+    position: absolute;
+    right: 2%;
+}

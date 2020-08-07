@@ -1,0 +1,24 @@
+.contenedor{
+    padding: 20px;
+}
+.contenedor h1{
+    font-size: 20px;
+}
+.contenedor h2{
+    font-size: 15px;
+}
+.tituloppal{
+    color: white;
+}
+.agregar{
+    margin-top: 40px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.editar{
+    margin-top: 70px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}

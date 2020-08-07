@@ -1,0 +1,55 @@
+.container-fluid{
+  background-color: black;
+}
+.primer{
+  display: flex;
+  width: 1000px;
+  margin-left: 60px;
+}
+.segundo{
+  display: flex;
+  margin-left: 58px;
+}
+.tercer{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.usuarios{
+  margin-left: 20px;
+}
+.dashboard{
+  margin-top: 80px;
+  box-shadow: 0 0 10px #00000050;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: gray;
+  height: 550px;
+  border: 1px rgba(107, 101, 101, 0.795) solid;
+
+}
+.pieChart1{
+  box-shadow: 0 0 10px #00000050;
+  border-radius: 10px;
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-top: 80px;
+  padding: 20px;
+  margin-bottom: 70px;
+  background-color: rgb(69, 118, 182);
+  height: 550px;
+  border: 1px rgb(22, 56, 100) solid;
+
+}
+.pieChart2{
+  box-shadow: 0 0 10px #00000050;
+  border-radius: 10px;
+  margin-top: 80px;
+  padding: 20px;
+  margin-bottom: 70px;
+  background-color: rgb(112, 69, 182);
+  border: 1px rgb(76, 50, 117) solid;
+  height: 550px;
+
+}
+
