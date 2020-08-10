@@ -24,7 +24,7 @@
   border-radius: 10px;
   padding: 20px;
   background-color: gray;
-  height: 550px;
+  height: 350px;
   border: 1px rgba(107, 101, 101, 0.795) solid;
 
 }
@@ -37,7 +37,7 @@
   padding: 20px;
   margin-bottom: 70px;
   background-color: rgb(69, 118, 182);
-  height: 550px;
+  height: 350px;
   border: 1px rgb(22, 56, 100) solid;
 
 }
@@ -49,7 +49,7 @@
   margin-bottom: 70px;
   background-color: rgb(112, 69, 182);
   border: 1px rgb(76, 50, 117) solid;
-  height: 550px;
+  height: 350px;
 
 }
 

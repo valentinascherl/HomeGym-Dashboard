@@ -8,6 +8,17 @@
     color:  white;
     width: 476px;
 }
+.container-productos{
+    background-color: rgb(255, 183, 0);
+    border: outset;
+    border: 1px rgb(206, 148, 3) solid;
+    margin-top: 10px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000050;
+    color:  white;
+    width: 476px;
+}
 .h4-cant-usuarios{
     border: white 2px outset;
     background-color:rgba(255, 187, 0, 0.678);
@@ -16,7 +27,20 @@
   
     position: absolute;
     right: 17%;
-    top: 3%;
+    top: 1%;
+    height: 16%;
+    width: 5%;
+}
+.h4-cant-productos{
+    border: white 2px outset;
+    background-color:rgba(255, 187, 0, 0.678);
+    border: 1px rgb(206, 148, 3) solid;
+    border-radius: 10px;
+    width: 5%;
+    position: absolute;
+    right: 17%;
+    top: 25%;
+    height: 16%;
 }
 .h2-usuarios{
     font-size: 20px;

@@ -5,22 +5,21 @@ function PieChart2() {
     return (
         <div>
             <div class="titulo">
-                <h1>Ventas por secciones</h1>
-            </div>
-            <div class="grafico">
-                <div class="sombra"></div>
-                <div id="porcion1" class="recorte"><div class="quesito" data-rel=""></div></div>
-                <div id="porcion2" class="recorte"><div class="quesito" data-rel=""></div></div>
-                <div id="porcion3" class="recorte"><div class="quesito" data-rel=""></div></div>
-                <div id="porcionFin" class="recorte"><div class="quesito" data-rel=""></div></div>
+                <h2>Ventas por secciones</h2>
             </div>
             <div>
-                <ul class="todos">
-                    <li class="muscu">Musculacion</li>
-                    <li class="cardio">Cardio</li>
-                    <li class="acce">Accesorios</li>
-                    <li class="paquetes">Paquetes</li>
+                             <h3 className="resaltar">
+                                <h3 className="categoryName">  </h3>
+                                <h3  className="categoryQuantity">  </h3>
+                              </h3>
+            </div>
+            <div className="sec">
+                <ul className="todos">
+                    <li className="muscu">Musculacion</li>
+                    <li className="cardio">Cardio</li>
+                    <li className="acce">Accesorios</li>
                 </ul>
+                <h1 className='totalVentas'>Total de ventas: </h1>
             </div>
         </div>
     );
