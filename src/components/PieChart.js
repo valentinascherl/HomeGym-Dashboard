@@ -8,7 +8,8 @@ class PieChart extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            secciones:[]
+            secciones:[],
+            productos:[]
         }
     }
     apiCall(url, handler) {
@@ -31,7 +32,8 @@ class PieChart extends Component {
         console.log(data);
         this.setState(
             {
-                secciones: data.data.secciones
+                secciones: data.data.secciones,
+                productos:data.data.productos
 
             }
         )
